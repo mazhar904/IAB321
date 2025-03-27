@@ -43,6 +43,11 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_CYT-oAqzEfC7RJ1PT1zXDA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_CYUlsQqzEfC7RJ1PT1zXDA" name="" content="" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:EndEvent" xmi:id="_MJ9CYAq0EfC7RJ1PT1zXDA" name="End2">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_MKWD8Aq0EfC7RJ1PT1zXDA" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_MKVc4Aq0EfC7RJ1PT1zXDA" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_MKWrAAq0EfC7RJ1PT1zXDA" name="" content="" returnTypeFixed="true"/>
+        </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_L281nQquEfC7RJ1PT1zXDA">
         <targetForm xmi:type="expression:Expression" xmi:id="_L281ngquEfC7RJ1PT1zXDA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -123,6 +128,12 @@
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_CYkdUAqzEfC7RJ1PT1zXDA" y="5"/>
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CYgy8AqzEfC7RJ1PT1zXDA" x="516" y="172"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_MKjfUAq0EfC7RJ1PT1zXDA" type="3003" element="_MJ9CYAq0EfC7RJ1PT1zXDA" fontName=".AppleSystemUIFont">
+              <children xmi:type="notation:DecorationNode" xmi:id="_MKqNAAq0EfC7RJ1PT1zXDA" type="5025">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_MKq0EAq0EfC7RJ1PT1zXDA" y="5"/>
+              </children>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MKktcAq0EfC7RJ1PT1zXDA" x="686" y="133"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_L2_R3AquEfC7RJ1PT1zXDA"/>
