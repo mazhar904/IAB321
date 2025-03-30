@@ -68,6 +68,16 @@
           <contract xmi:type="process:Contract" xmi:id="_nEfgyAq1EfC7RJ1PT1zXDA"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_nEgH0Qq1EfC7RJ1PT1zXDA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:Activity" xmi:id="_ZFRTMA0uEfCgEa8eZ-prQw" name="Harry">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_ZFcSUQ0uEfCgEa8eZ-prQw" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_ZFcSUA0uEfCgEa8eZ-prQw" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_ZFcSUg0uEfCgEa8eZ-prQw" name="" content="" returnTypeFixed="true"/>
+          <loopCondition xmi:type="expression:Expression" xmi:id="_ZFcSUw0uEfCgEa8eZ-prQw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+          <loopMaximum xmi:type="expression:Expression" xmi:id="_ZFcSVA0uEfCgEa8eZ-prQw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <cardinalityExpression xmi:type="expression:Expression" xmi:id="_ZFcSVQ0uEfCgEa8eZ-prQw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <iteratorExpression xmi:type="expression:Expression" xmi:id="_ZFcSVw0uEfCgEa8eZ-prQw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+          <completionCondition xmi:type="expression:Expression" xmi:id="_ZFcSVg0uEfCgEa8eZ-prQw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_L281nQquEfC7RJ1PT1zXDA">
         <targetForm xmi:type="expression:Expression" xmi:id="_L281ngquEfC7RJ1PT1zXDA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -164,6 +174,10 @@
             <children xmi:type="notation:Shape" xmi:id="_nE_QAAq1EfC7RJ1PT1zXDA" type="3005" element="_nEPCEAq1EfC7RJ1PT1zXDA" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_nFBFMAq1EfC7RJ1PT1zXDA" type="5005"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nE_QAQq1EfC7RJ1PT1zXDA" x="440" y="107"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_ZFq70A0uEfCgEa8eZ-prQw" type="3006" element="_ZFRTMA0uEfCgEa8eZ-prQw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+              <children xmi:type="notation:DecorationNode" xmi:id="_ZFsJ8A0uEfCgEa8eZ-prQw" type="5006"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZFq70Q0uEfCgEa8eZ-prQw" x="702" y="19"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_L2_R3AquEfC7RJ1PT1zXDA"/>
